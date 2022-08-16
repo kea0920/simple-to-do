@@ -24,7 +24,7 @@ class ToDoTableViewController: UITableViewController {
         
         let dog = ToDo()
         dog.name = "Walk the Dog"
-        // important is set to false by default
+        // important = false by default
         
         return [swift, dog]
     }
@@ -46,9 +46,9 @@ class ToDoTableViewController: UITableViewController {
           } else {
             cell.textLabel?.text = toDo.name
           }
-
-        // Configure the cell...
-
+        
+        // configure the cell...
+        
         return cell
     }
 
