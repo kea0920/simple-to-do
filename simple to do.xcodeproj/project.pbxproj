@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		2EB2706A28AB1CF400E2BA12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2706928AB1CF400E2BA12 /* AppDelegate.swift */; };
 		2EB2706C28AB1CF400E2BA12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2706B28AB1CF400E2BA12 /* SceneDelegate.swift */; };
-		2EB2706E28AB1CF400E2BA12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2706D28AB1CF400E2BA12 /* ViewController.swift */; };
 		2EB2707128AB1CF400E2BA12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB2706F28AB1CF400E2BA12 /* Main.storyboard */; };
 		2EB2707428AB1CF400E2BA12 /* simple_to_do.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2707228AB1CF400E2BA12 /* simple_to_do.xcdatamodeld */; };
 		2EB2707628AB1CF900E2BA12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB2707528AB1CF900E2BA12 /* Assets.xcassets */; };
 		2EB2707928AB1CF900E2BA12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB2707728AB1CF900E2BA12 /* LaunchScreen.storyboard */; };
+		2EB2708128AB1F4700E2BA12 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2708028AB1F4700E2BA12 /* ToDoTableViewController.swift */; };
+		2EB2708328AB1FB100E2BA12 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB2708228AB1FB100E2BA12 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2EB2706628AB1CF400E2BA12 /* simple to do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple to do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB2706928AB1CF400E2BA12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EB2706B28AB1CF400E2BA12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2EB2706D28AB1CF400E2BA12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2EB2707028AB1CF400E2BA12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EB2707328AB1CF400E2BA12 /* simple_to_do.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = simple_to_do.xcdatamodel; sourceTree = "<group>"; };
 		2EB2707528AB1CF900E2BA12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EB2707828AB1CF900E2BA12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EB2707A28AB1CF900E2BA12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB2708028AB1F4700E2BA12 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		2EB2708228AB1FB100E2BA12 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			children = (
 				2EB2706928AB1CF400E2BA12 /* AppDelegate.swift */,
 				2EB2706B28AB1CF400E2BA12 /* SceneDelegate.swift */,
-				2EB2706D28AB1CF400E2BA12 /* ViewController.swift */,
+				2EB2708228AB1FB100E2BA12 /* ToDo.swift */,
+				2EB2708028AB1F4700E2BA12 /* ToDoTableViewController.swift */,
 				2EB2706F28AB1CF400E2BA12 /* Main.storyboard */,
 				2EB2707528AB1CF900E2BA12 /* Assets.xcassets */,
 				2EB2707728AB1CF900E2BA12 /* LaunchScreen.storyboard */,
@@ -141,10 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EB2706E28AB1CF400E2BA12 /* ViewController.swift in Sources */,
 				2EB2706A28AB1CF400E2BA12 /* AppDelegate.swift in Sources */,
+				2EB2708328AB1FB100E2BA12 /* ToDo.swift in Sources */,
 				2EB2706C28AB1CF400E2BA12 /* SceneDelegate.swift in Sources */,
 				2EB2707428AB1CF400E2BA12 /* simple_to_do.xcdatamodeld in Sources */,
+				2EB2708128AB1F4700E2BA12 /* ToDoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
